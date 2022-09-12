@@ -31,3 +31,4 @@ if you run the index.html directly it will not show data.
 
 
 
+in index.html  you need to download the video from the link provided in the command and then renae it as video.mp4 and put it in the same folder as the projects.
