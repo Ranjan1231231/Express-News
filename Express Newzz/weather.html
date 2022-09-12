@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Express Newz
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+        html,body{
+  background-image: url('weather_background1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: 'Numans', sans-serif;
+  }
+  </style>
+        
+    </head>
+    <body>
+        
+        <hr size="3" noshade>
+        <center>
+        <h1 style="font-size:50px;font-family:calibri;font-weight: normal;color:green;">
+            Express Newz
+        </h1>
+        </center>
+        <hr size="3" noshade>
+        <br>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+        
+        <div class="input">
+          <input type="text" placeholder="Enter the state" class="inputla">
+            <br>
+            <br>
+          <button type="submit" value="Submit" class="button-30">
+              Submit</button>
+
+
+
+        </div>
+      </div>
+      <div class="container">
+        <div class="card">
+          <h1 class="name" id="name"></h1>
+          <p class="temp"></p>
+          <p class="clouds"></p>
+          <p class="desc"></p>
+<!--          <p class="wind"></p>-->
+        </div>  
+        
+      </div>
+      <script src="app.js"></script>
+        
+    </body>
+</html>
